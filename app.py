@@ -5,6 +5,8 @@ import seaborn as sns
 import matplotlib
 import matplotlib.pyplot as plt
 
+st.set_option("deprecation.showPyplotGlobalUse", False)
+
 # from sklearn import datasets
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
