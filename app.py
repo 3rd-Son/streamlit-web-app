@@ -185,7 +185,7 @@ def main():
 
             accuracy = accuracy_score(y_test, y_pred)
 
-            st.write("Nmae of classifier:", classifier_name)
+            st.write("Name of classifier:", classifier_name)
             st.write("Accuracy", accuracy)
 
     # DELING WITH THE ABOUT US PAGE
